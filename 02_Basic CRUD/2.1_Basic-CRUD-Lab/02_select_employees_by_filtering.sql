@@ -1,6 +1,6 @@
 SELECT 
 	id,
-	concat(first_name, ' ', last_name) AS "full_name",
+	concat(first_name, ' ', last_name) AS full_name,
 	job_title,
 	salary
 FROM employees
