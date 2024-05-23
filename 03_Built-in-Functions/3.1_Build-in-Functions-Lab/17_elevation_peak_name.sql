@@ -4,7 +4,7 @@ SELECT
 		elevation,
 		repeat('-', 3) || Repeat('>', 2),
 		peak_name
-	)
+	) AS "Elevation -->> Peak Name"
 FROM
 	peaks
 WHERE 
