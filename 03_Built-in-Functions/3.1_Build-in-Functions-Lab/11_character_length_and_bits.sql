@@ -13,7 +13,7 @@ SELECT
 		CONCAT(
 			m.mountain_range, ' ', p.peak_name
 		)
-	) AS bits_of_tring
+	) AS bits_of_string
 FROM
 	mountains AS m,
 	peaks AS p
