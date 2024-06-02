@@ -8,4 +8,5 @@ LEFT JOIN
 	bookings AS b
 USING
 	(booking_id)
-LIMIT 10;
+LIMIT 
+    10;
