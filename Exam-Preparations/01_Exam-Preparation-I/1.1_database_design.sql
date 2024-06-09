@@ -34,7 +34,7 @@ CREATE TABLE animals (
 	ON DELETE CASCADE
 	ON UPDATE CASCADE,
 
-	CONSTRAINT fk_animal_animal_types
+	CONSTRAINT fk_animals_animal_types
 	FOREIGN KEY (animal_type_id)
 	REFERENCES animal_types(id)
 	ON DELETE CASCADE
