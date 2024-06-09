@@ -13,7 +13,7 @@ BEGIN
 			SELECT
 				department_id
 			FROM
-				departments as d
+				departments AS d
 			WHERE
 				department_name = d.name
 		);
