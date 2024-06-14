@@ -15,6 +15,8 @@ CREATE OR REPLACE PROCEDURE usp_search_by_category(
 AS
 $$
 BEGIN
+    TRUNCATE search_results;
+    
 	INSERT INTO	search_results(
 		name,
 		release_year,
